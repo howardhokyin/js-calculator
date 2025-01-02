@@ -75,6 +75,13 @@ const Number = ({ onClick }) => {
       >
         0
       </button>
+      <button
+        className="col-span-3 bg-red-100 p-4"
+        value={'reset'}
+        onClick={(e) => onClick(e.target.value)}
+      >
+        reset
+      </button>
     </div>
   );
 };

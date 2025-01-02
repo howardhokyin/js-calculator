@@ -31,6 +31,13 @@ const Operators = ({ onClick }) => {
       >
         /
       </button>
+      <button
+        className="bg-green-100 p-4"
+        value={'='}
+        onClick={(e) => onClick(e.target.value)}
+      >
+        =
+      </button>
     </div>
   );
 };
